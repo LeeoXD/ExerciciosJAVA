@@ -38,4 +38,8 @@ public class CadastroContas implements ContasDAO {
                 .collect(Collectors.toList());
         return resp;
     }
+
+    public Object nada() {
+        return null;
+    }
 }
